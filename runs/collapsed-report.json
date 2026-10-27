@@ -1,0 +1,78 @@
+{
+  "file": "data/collapsed.jsonl",
+  "measurements": {
+    "rows": 400,
+    "exact_dup_rows": 127,
+    "exact_dup_rate": 0.318,
+    "near_dup_rows": 337,
+    "near_dup_rate": 0.843,
+    "near_dup_threshold": 0.8,
+    "template_clusters": 23,
+    "top1_template_share": 0.362,
+    "top3_template_share": 0.9,
+    "vocab_top50_coverage": 0.58,
+    "type_token_ratio": 0.05,
+    "response_length": {
+      "mean": 40.9,
+      "median": 39.0,
+      "min": 31,
+      "max": 86
+    },
+    "length_modal_share": 0.54,
+    "length_modal_bucket_tokens": "30-39",
+    "answer_repetition": 0.261,
+    "worst_templates": [
+      {
+        "template": "write a product description",
+        "rows": 145,
+        "share": 0.362,
+        "distinct_answers": 88,
+        "mean_pairwise_response_similarity": 0.29,
+        "example_prompt": "Write a product description for Nimbus Lamp."
+      },
+      {
+        "template": "summarize this article about",
+        "rows": 124,
+        "share": 0.31,
+        "distinct_answers": 12,
+        "mean_pairwise_response_similarity": 0.195,
+        "example_prompt": "Summarize this article about electric vehicles."
+      },
+      {
+        "template": "write a tweet about",
+        "rows": 91,
+        "share": 0.228,
+        "distinct_answers": 12,
+        "mean_pairwise_response_similarity": 0.359,
+        "example_prompt": "Write a tweet about python."
+      },
+      {
+        "template": "summarize the following passage",
+        "rows": 5,
+        "share": 0.013,
+        "distinct_answers": 5,
+        "mean_pairwise_response_similarity": 0.081,
+        "example_prompt": "Summarize the following passage about the Moon."
+      },
+      {
+        "template": "what are the main",
+        "rows": 5,
+        "share": 0.013,
+        "distinct_answers": 5,
+        "mean_pairwise_response_similarity": 0.021,
+        "example_prompt": "What are the main causes of the printing press?"
+      }
+    ]
+  },
+  "score": 52.8,
+  "score_components": {
+    "exact_dup_rate": 6.4,
+    "near_dup_rate": 16.9,
+    "top1_template_share": 5.4,
+    "top3_template_share": 9.0,
+    "vocab_top50_coverage": 5.8,
+    "length_modal_share": 5.4,
+    "answer_repetition": 3.9
+  },
+  "verdict": "FAIL"
+}

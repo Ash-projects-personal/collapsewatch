@@ -1,0 +1,78 @@
+{
+  "file": "data/healthy.jsonl",
+  "measurements": {
+    "rows": 400,
+    "exact_dup_rows": 0,
+    "exact_dup_rate": 0.0,
+    "near_dup_rows": 4,
+    "near_dup_rate": 0.01,
+    "near_dup_threshold": 0.8,
+    "template_clusters": 103,
+    "top1_template_share": 0.085,
+    "top3_template_share": 0.25,
+    "vocab_top50_coverage": 0.411,
+    "type_token_ratio": 0.044,
+    "response_length": {
+      "mean": 59.2,
+      "median": 59.0,
+      "min": 40,
+      "max": 88
+    },
+    "length_modal_share": 0.323,
+    "length_modal_bucket_tokens": "60-69",
+    "answer_repetition": 0.067,
+    "worst_templates": [
+      {
+        "template": "summarize the following passage",
+        "rows": 34,
+        "share": 0.085,
+        "distinct_answers": 34,
+        "mean_pairwise_response_similarity": 0.056,
+        "example_prompt": "Summarize the following passage about maps."
+      },
+      {
+        "template": "what are the main",
+        "rows": 33,
+        "share": 0.083,
+        "distinct_answers": 33,
+        "mean_pairwise_response_similarity": 0.04,
+        "example_prompt": "What are the main causes of spiders?"
+      },
+      {
+        "template": "what are the first",
+        "rows": 33,
+        "share": 0.083,
+        "distinct_answers": 33,
+        "mean_pairwise_response_similarity": 0.047,
+        "example_prompt": "What are the first steps to learn the human heart?"
+      },
+      {
+        "template": "write a python function",
+        "rows": 33,
+        "share": 0.083,
+        "distinct_answers": 33,
+        "mean_pairwise_response_similarity": 0.054,
+        "example_prompt": "Write a Python function that checks whether the Moon is present in a list."
+      },
+      {
+        "template": "give a one paragraph",
+        "rows": 33,
+        "share": 0.083,
+        "distinct_answers": 33,
+        "mean_pairwise_response_similarity": 0.029,
+        "example_prompt": "Give a one paragraph summary of coffee."
+      }
+    ]
+  },
+  "score": 12.3,
+  "score_components": {
+    "exact_dup_rate": 0.0,
+    "near_dup_rate": 0.2,
+    "top1_template_share": 1.3,
+    "top3_template_share": 2.5,
+    "vocab_top50_coverage": 4.1,
+    "length_modal_share": 3.2,
+    "answer_repetition": 1.0
+  },
+  "verdict": "PASS"
+}
